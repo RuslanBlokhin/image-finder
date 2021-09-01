@@ -24,4 +24,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  max-height: 1000px;
+}
+
+@media screen and (min-width: 1280px) {
+  img {
+    max-height: 1000px;
+  }
 }
